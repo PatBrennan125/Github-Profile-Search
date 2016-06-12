@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+
+body {
+	background-color: #eeeef0;
+	font-family: 'Oswald', sans-serif;	
+}
+
+.username-input {
+	margin: 20px;
+}
+
+.github-profile {
+	margin: 20px;
+	background-color: #fff;
+	max-width: 300px;
+	font-size: 1.2em;
+	color: #444;
+	-webkit-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.33);
+	-moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.33);
+	box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.33);
+}
+
+.github-profile-avatar {
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	display: flex;
+	align-items: flex-end;
+	padding: 10px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.github-profile-name, .github-profile-location {
+	margin: 10px;
+}
+
+.github-profile-stats {
+	display: flex;
+	justify-content: space-around;	
+}
+
+.github-profile-stat > .fa {
+	font-size: 3em;
+	display: block;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+}
+
+.github-profile-stat > span {
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+.github-icon-repo, .github-icon-gist {
+	width: 100px;
+	font-size: 1.5em;
+	height: 100px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
